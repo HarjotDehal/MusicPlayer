@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+body{
+    background-color: sandybrown;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Raleway', sans-serif;
+}
+.red{
+    text-decoration: underline;
+    color: sandybrown;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    /* position: sticky; */
+
+    padding: 0 50px;
+    cursor: pointer;
+    font-size: 25px;
+}
+#itemlist{
+
+margin-top: 5px;
+font-size: 20px;
+
+}
+.harjot{
+
+    padding: 0 0 0 800px
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.container{
+    min-height: 70vh;
+    /* background-image: url(sidhu.jpg); */
+    background-color: black;
+    color: white;
+   font-family: 'Kanit', sans-serif;
+   display: flex;
+   margin: 10px auto;
+   width: 85%;
+   border-radius: 50px;
+    padding-left: 34px;  
+    padding-bottom: 24px;
+    padding-right: 0px;
+    padding-top: 34px;
+   background-image: url(sidhu.jpg);
+   background-size: cover;
+}
+
+.bottom{
+    /* sticky makes it stay on screen */
+    position: sticky;
+    bottom: 0;
+    height: 120px;
+    background-color: black;
+    color: sandybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.songList h1{
+
+    color: sandybrown;
+}
+
+.songList2 h1{
+
+    position: absolute;
+    color: sandybrown;
+    cursor: pointer;
+    left: 73vw;
+}
+
+/* .songList2 h1 i{
+
+    cursor: pointer;
+    size: 40px;
+} */
+.icons{
+    margin-top: 14px; 
+/* padding: 10px 20px 50px 50px;  */
+}
+/* 
+#previous{
+
+
+    left: 10vw;
+} */
+.icons i{
+    cursor: pointer;
+}
+
+
+
+#myProgressBar{
+    width: 80vw; 
+    /* font-size: 510px; */
+    /* height: 40vw; */
+    cursor: pointer;
+/* flood-color: forestgreen; */
+
+}
+
+.songItemContainer{
+    margin-top: 50px;
+    /* margin-left: 900px; */
+    /* align-self: center; */
+}
+
+.songItemContainer2{
+    margin-top: 84px;
+    /* align-self: center; */
+    margin-left: 670px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: rgba(255, 0, 170, 0.788);
+    
+    color: bisque;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    font-weight: 1000;
+}
+.log img{
+
+width: 5px;
+
+}
+.songItem img{
+    width: 55px;
+    margin: 0 23px;
+    border-radius: 34px;
+    max-height: 50px;
+    min-height: 45px;
+    /* background-size: cover; */
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Kanit', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+
+#masterSongName{
+
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: red;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li{
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .container{
+        width:  100%;
+        margin: 0;
+
+
+    }
+
+    .songItem{
+
+height: 40px;
+font-size: 8px;
+/* margin: 0; */
+    }
+    .songItem{
+        margin: 0;
+    }
+
+    .songItemContainer2{
+        margin-left: 20px;
+        margin-top: 154px;
+    }
+
+  }
