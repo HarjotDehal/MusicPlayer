@@ -254,20 +254,6 @@ document.getElementById('previous').addEventListener('click', ()=>{
 })
 
 
-// made it possible to pause from side bar and it sets them equal to pause and play accordingly/correctly. 
 
-
-// You cant pause from the thing, make a pause from side bar:
-
-
-// if you play something from main bar, make it play from side bar
-
-//make it more responsive with smaller screens:
-
-
-// make buttons lower and other stuff higher. Use media query. This is kinda easy, put it in style. 
-// I did it in one of the other projects
-
-// if a song finishes, make it automaticaly play the next song. Maybe even create a queue button but could be confusing. 
 
 
