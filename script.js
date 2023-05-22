@@ -7,7 +7,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 let masterSongTime = document.getElementById('masterSongTime');
 
-
+hu
 let songs = [
     {songName: "Signed to God - Sidhu Moose Wala", filePath: "songs/1.mp3", coverPath: "covers/1.jpg" , timess: "02:27"},
     {songName: "On Top - Karan Aujla", filePath: "songs/2.mp3", coverPath: "covers/2.jpg", timess:"03:03"},
